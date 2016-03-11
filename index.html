@@ -2,11 +2,35 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-
+  <link rel="stylesheet" href="styles/index.css" type="text/css">
   <title>Progress Bar</title>
-
 </head>
 <body>
+  <section>
+    <h1>Make Progress</h1>
+    <form>
+      <h3>How long should I take?</h3>
+      <select name="minutes" id="minutes">
+        <option value="0">0 minutes</option>
+        <option value="1">1 minutes</option>
+        <option value="2">2 minutes</option>
+        <option value="3">3 minutes</option>
+        <option value="4">4 minutes</option>
+        <option value="5">5 minutes</option>
+      </select>
+      <select name="seconds" id="seconds">
+        <option value="0">0 seconds</option>
+        <option value="1">1 seconds</option>
+        <option value="2">2 seconds</option>
+        <option value="3">3 seconds</option>
+        <option value="4">4 seconds</option>
+        <option value="5">5 seconds</option>
+      </select>
+      <h3>What am I doing?</h3>
+      <input type="text" name="title" id="title" placeholder="Loading...">
+      <button type="submit">Start!</button>
+    </form>
+  </section>
   <script src="scripts/landing.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
